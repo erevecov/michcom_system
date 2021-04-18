@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.navbar-brand {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.navbarCustom {
+    background: $base-color !important;
+}
+
+.dropdownMenuCustom {
+    background: $base-color-2 !important;
+    padding: 10px 15px 10px 15px;
+    a {
+        background: $base-color-2;
+        color: white !important;
+        // color: #35D9FF;
+        &:hover {
+            color: white;
+            background: $base-color-3;
+        }
+    }
+}

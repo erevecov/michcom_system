@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+body {
+    // background: #1C2838 !important;
+    background: white;
+    color: $base-color;
+}
+
+.btn-prim {
+    background: $base-color;
+    border: 1px solid $base-color-3;
+    border-radius: 0;
+    &:hover {
+        background: $base-color-3;
+        border: 1px solid $base-color;
+    }
+}
